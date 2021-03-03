@@ -292,11 +292,11 @@ h1{
 .overlay {
     position: absolute;
     opacity: 0;
-    width: 92%;
-    height: 94%;
+    width: 100%;
+    height: 100%;
     display: table;
     top: 0;
-    left: 16px;
+    left: 0px;
     background-color: rgba(000,000,000,0.5);
     text-align: center;
 }
@@ -308,14 +308,14 @@ h1{
     color: #fff;
     font-family: cursive;
 }
-.contain:hover .overlay{
+/* .contain:hover .overlay{
     transition: 2s;
     opacity: 1;
-}
+} */
 
 .contain  .btn-success{
     position: absolute;
-    bottom: 16px;
+    bottom: 25px;
     background-color:#82ae46;
     border: 1px solid #82ae46;
 }
@@ -403,7 +403,6 @@ h1{
     color: #fff;
     border: 1px solid #82ae46;
     width: 100%;
-    padding: 10px 0;
    }
    
    .rate{
@@ -1247,3 +1246,12 @@ option{
         border-radius: 5px;
     }
     }
+
+    .btn{
+        padding: .9rem 2.75rem;
+
+    }
+
+button, .button {
+    margin-bottom: 0rem;
+}
